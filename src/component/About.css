@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Fruktur&family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #d2cfcf;
+}
+
+#pic{
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#insta{
+    width: 50px;
+    margin-left: 28px;
+    border-radius: 100px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('./img/bgabout.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.myabout{
+    height: 100vh;
+}
+#img2{
+    width: 77%;
+    border-radius: 150px;
+    border: 2px solid;
+    border-color: white;
+    display: block;
+    margin: auto;
+}
+.box-main{
+    display: flex;
+    /* flex-direction: column; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+.btn1{
+    background-color: transparent;
+    padding: 8px 20px;
+    margin: 7px 7px;
+    border: 2px solid white;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: grey;
+}
+.text-big{
+    font-size: 39px;
+}
+.text-small{
+    font-size: 18px;
+}
+.secondhalf{
+    width: 30%;
+}
+.firsthalf{
+    width: 75%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/*--------------------------------------------------------------------------------------*/
+.mainsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
+}
+.head{
+    display: block;
+    text-align: center;
+    margin: 10px 0px;
+}
+#myname{
+    padding-left: 29px;
+}
+.secomdsection{
+    margin-top: 12px
+}
+
+/*------------------------------------------------------------------------------------*/
+.contact{
+    height: 833px;
+    background-color: #e9e9e8;
+}
+.text-centre{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif ;
+    font-size: 35px;
+}
+.form{
+    max-width: 500px;
+    margin: 25px auto;
+}
+.form input,textarea{
+    width: 100%;
+    padding: 5px 3px;
+    margin: 14px 0px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn2{
+    border: 2px solid grey;
+    color: black;
+}
+.btn2:hover{
+    background-color: grey;
+    color: black;
+}
+
+.foot{
+    color: white;
+    padding: 7px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------*/
+.text-center1{
+    text-align: center;
+    margin: auto;
+    width: 50vw;
+    margin-top: 70px;
+    border: 3px solid black;
+    padding: 10px 0px;
+    margin-bottom: 24px;
+    background-color: white;
+    border-radius: 50px;
+}
+.card{
+    border: 2px solid grey;
+    /* box-shadow: inset 20px 10px 94px grey; */
+}
+
+@media only screen and (max-Width:1140px){
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .secondhalf{
+        margin-top:30px ;
+    }
+    .mainsection{
+        flex-direction: column;
+        margin-top: 21px;
+    }
+    .form{
+        max-width: 62%;
+    }
+    .btn2{
+        text-align: center;
+    }
+    .foot{
+        font-size: 14px;
+    }
+    #myname{
+        text-align: center;
+    }
+    .text-center1{
+        width: 99vw;
+    }
+}
+
+@media only screen and (max-Width:300px){
+    .myabout{
+        height: 125vh;
+    }
+    .foot{
+        font-size: 9px;
+    }
+    .text-center1{
+        width: 99vw;
+    }
+}
